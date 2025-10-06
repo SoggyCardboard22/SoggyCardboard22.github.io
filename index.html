@@ -2,29 +2,64 @@
 <!DOCTYPE html>
 <html>  
     <head>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>Jack's cool webiste</h1>
         <img src="Me.png">
+        <div id="nav">
+            <p>Home Screen</p>
+            <p>Music Recs</p>
+        </div>
+       <div id="about"> 
+            p{
+                Hey, this is my website. I made it because my friend is teaching me me how to code, and Iit's pretty cool. I like to play music, listen to music, talk about music, and watch movies...
+            }
+       </div>
         
     </body> 
     <style>
+        #nav {
+            position :relative; 
+            left:25%;
+        }
         h1 {
             color: rgb(109, 2, 167);
             text-align: center;
-            font-family: Arial, sans-serif;
-            font-size: 36px;
+            font-size: 100px;
+            margin-top:5px ;
         }
         body{ 
             background-color: black;
-        }
+            color: rgb(5, 113, 17);
+            font-family: "Creepster", system-ui;
+             font-weight: 400;
+             font-style: normal; }
         img {
             position :absolute;
             left:0;
             bottom:0;
         }
-        
+        p {
+            font-size: 75px;
+            /* text-align :center; */
+            display: inline-block;
+            margin:20px;
+
+        }
+        #about {
+            border:5px rgb(109, 2, 167) solid;
+    position:absolute;
+    right:0; 
+    top:0%;
+    width:22%;
+    height:100%;
+    margin:22px;
+    margin-right:5px;
+    background-color: rgba(123, 9, 199, 0.625);    
+    }
     </style>
     <script>
 
